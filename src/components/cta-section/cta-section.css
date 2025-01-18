@@ -1,0 +1,14 @@
+.fs{
+    font-size: 2.25rem;
+}
+@media(max-width:768px){
+    .fs{
+        font-size: 1.5rem;
+    }
+    .flex {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 10px;
+        width: 100%;
+    }
+}

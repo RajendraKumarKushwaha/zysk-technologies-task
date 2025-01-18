@@ -1,0 +1,70 @@
+.heading-3{
+    font-size: 32px;
+    font-weight: 700;
+    color: #454545;
+  }
+.head3{
+    font-size: 3rem;
+}
+.heading5{
+    font-size: 1.1rem;
+}
+.para{
+    font-size:1rem;
+}
+.head6{
+    font-size: 1.25rem;
+}
+
+.accordion {
+    border-bottom: 1px solid #ddd;
+    overflow: hidden;
+    width: 60%;
+    margin: 20px auto;
+  }
+  
+  
+  
+  .accordion-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    cursor: pointer;
+    background: white;
+  }
+  
+  
+  .accordion-content {
+    padding: 15px;
+    background: #fff;
+    animation: fadeIn 0.3s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @media(max-width: 768px){
+    .accordion{
+        width: 100%;
+    }
+    .accordian{
+      width: 90%;
+      margin: auto;
+    }
+    .head3{
+        font-size: 2rem;
+    }
+    .heading5{
+        font-size: 1rem;
+    }
+    .para{
+        font-size:0.9rem;
+    }
+  }

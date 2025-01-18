@@ -1,0 +1,17 @@
+.h3{
+    font-size: 36px;
+    color: #101828;
+}
+.para{
+    font-size: 1.25rem;
+}
+
+@media(max-width:768px){
+    .h3{
+        font-size:20px;
+        color: #101828;
+    }
+    .para{
+        font-size: 0.9rem;
+    }
+}

@@ -1,0 +1,28 @@
+.borders {
+    border: 1px solid red;
+    border-radius: 100px;
+    color:red;
+    
+}
+.para {
+    color: #475467;
+    line-height: 1.5;
+    font-size: 1.25rem;
+    
+}
+.hero {
+    padding-top: 6rem;
+}
+.heading1 {
+    font-size: 3rem;
+    color: #101828;
+    
+}
+@media (max-width: 768px){
+    .text{
+        font-size: 12px;
+    }
+    .hero {
+        padding-top: 4rem;
+    }
+}
