@@ -43,6 +43,8 @@ export function NavBar() {
             <div className="d-none d-md-block">
                 <img src="/assests/images/_Navigation actions.png" alt="logo" />
             </div>
+           
         </header>
+       
     )
 }

@@ -59,7 +59,7 @@ export function FAQSection() {
             </div>
 
             <div>
-               <div className="d-flex flex-column align-items-center mt-5">
+               <div className="d-flex flex-column align-items-center bg-color py-4 mt-5">
                   <img src="/assests/images/Avatar group.png"alt="" className="mb-3"/>
                   <h6 className="head6">Still have questions?</h6>
                   <p className="para">Can’t find the answer you’re looking for? Please chat to our friendly team.</p>

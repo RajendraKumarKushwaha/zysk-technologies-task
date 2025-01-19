@@ -2,3 +2,16 @@
   max-width: 90%;
   margin: 0 auto; 
 }
+.full-width-hr {
+  width: 100vw; 
+  position: relative;
+  left: 49%; 
+  transform: translateX(-50%); 
+  margin: 0; 
+  
+  border-top: 1px solid lightgray; /* Add a line style */
+
+}
+.hr{
+  border-top: 1px solid lightgray;
+}

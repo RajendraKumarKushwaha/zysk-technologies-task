@@ -1,3 +1,18 @@
 .paragraph {
     color: #475467;
 }
+/* Style for the blog header container */
+.blog-header {
+    display: flex;
+    flex-direction: column; /* Default for smaller screens */
+    justify-content: space-between;
+    position: relative;
+    min-height: 120px; /* Ensures enough spacing for bottom placement */
+}
+
+/* Push the button to the bottom of the section */
+.view-all-btn {
+    margin-top: auto; /* Allow it to stick to the bottom of its parent container */
+}
+
+

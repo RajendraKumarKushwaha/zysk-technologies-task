@@ -31,8 +31,8 @@ export function BlogSection() {
     ];
 
     return (
-        <div className="mt-5">
-            <div className="d-flex justify-content-between flex-column flex-md-row">
+        <div className="mt-5 custom-container">
+            <div className="d-flex justify-content-between flex-column px-2 flex-md-row">
                 <div>
                     <h6 className="text-danger">Our blog</h6>
                     <h4>Latest blog posts</h4>
@@ -50,9 +50,9 @@ export function BlogSection() {
                             <div key={index} className="col-md-4 mb-4">
                                 <div className="card border-0">
                                     <img src={card.image} className="card-img-top" alt="Card imag" />
-                                    <div className="card-body">
+                                    <div className="card-body px-0">
 
-                                        <p className="card-text fs-6  text-danger">{card.paragraph}</p>
+                                        <p className="card-text fs-6   text-danger">{card.paragraph}</p>
 
                                         <div className="d-flex justify-content-between">
                                             <h5 className="card-title">{card.heading}</h5>

@@ -10,14 +10,14 @@ export function FeatureSection() {
     ];
 
     return (
-        <div className="d-flex flex-column justify-content-center align-items-center text-center">
+        <div className="d-flex  flex-column justify-content-center align-items-center text-center pt-4">
             <div>
                 <h6 className="text-danger fs-5">Features</h6>
                 <h3 className="fw-bold h3">Analytics that feels like it’s from the future</h3>
                 <p className="para">Powerful, self-serve product and growth analytics to help you convert, engage,<br /> and retain more users. Trusted by over 4,000 startups.</p>
             </div>
 
-            <div className="features-container mt-4">
+            <div className=" custom-padding features-container mt-4">
                 <div className="row">
                     {data.map((item, index) => (
                         <div key={index} className="col-md-4 text-center mb-4">

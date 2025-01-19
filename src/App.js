@@ -15,11 +15,14 @@ function App() {
 
     <div className='custom-container'>
       <NavBar />
+      <hr className='full-width-hr'/>
       <HeroSection />
       <SocialSection />
+      <hr className='hr'/>
       <FeatureSection />
       <Testimonial />
       <FAQSection />
+      <hr className='hr'/>
       <BlogSection />
       <CTASection />
       <Footer />

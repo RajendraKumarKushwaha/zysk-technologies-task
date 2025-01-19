@@ -5,6 +5,10 @@
 .para{
     font-size: 1.25rem;
 }
+.custom-padding{
+    padding-left: 2.2rem;
+    padding-right: 2.2rem;
+}
 
 @media(max-width:768px){
     .h3{
@@ -13,5 +17,9 @@
     }
     .para{
         font-size: 0.9rem;
+    }
+    .custom-padding{
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 }

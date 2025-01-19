@@ -1,7 +1,7 @@
 import './testimonial-section.css';
 export function Testimonial() {
     return (
-        <div className='d-flex justify-content-center text-center py-4'>
+        <div className='d-flex justify-content-center text-center bg-color py-4'>
             <div >
                 <img src='/assests/images/Logomark.png' alt='testimonial' className=' mb-2' />
                 <img src='/assests/images/Logotype.png' alt='testimonial' className=' mb-2' />

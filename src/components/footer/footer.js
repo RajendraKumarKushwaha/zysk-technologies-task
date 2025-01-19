@@ -73,10 +73,12 @@ export function Footer() {
                     </div>
                 </div>
             </div>
+            <hr className='hr'/>
             <div className="d-flex foot justify-content-between">
                 <div>
                     <img src="/assests/images/Group 160.png" alt="logo" />
                 </div>
+               
                 <div>
                     <p className="para">© 2077 zysktechnologies. All rights reserved.</p>
                 </div>
