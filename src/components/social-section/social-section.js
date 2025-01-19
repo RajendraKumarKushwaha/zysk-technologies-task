@@ -17,7 +17,7 @@ export function SocialSection() {
                     <span><img src="/assests/images/Fictional company logo (3).png" class="img-fluid company-logo" alt="company-logo" /></span>
                     <span><img src="/assests/images/Fictional company logo (4).png" class="img-fluid company-logo" alt="company-logo" /></span>
                     <span><img src="/assests/images/Fictional company logo (5).png" class="img-fluid company-logo" alt="company-logo" /></span>
-                    
+
                 </div>
             </div>
         </div>

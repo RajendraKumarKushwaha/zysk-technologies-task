@@ -1,8 +1,9 @@
-.head2{
+.head2 {
     font-size: 3rem;
 }
-@media(max-width:768px){
-    .head2{
+
+@media(max-width:768px) {
+    .head2 {
         font-size: 2rem;
     }
 }

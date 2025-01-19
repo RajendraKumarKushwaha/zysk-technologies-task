@@ -2,51 +2,57 @@
     width: 90%;
     margin: auto;
 }
+
 .social-container {
     width: 100%;
 }
+
 .social-img {
     width: 100%;
-    /* border: 5px solid black; */
-    border-top: 5px solid black;   
-    border-right: 5px solid black; 
+    border-top: 5px solid black;
+    border-right: 5px solid black;
     border-radius: 15px;
 }
-.company-logo-container {
-    
-}
-.company-logo{
+
+.company-logo {
     width: 9rem;
-   
+
 }
+
 .company-list {
     margin-top: -100px;
 }
+
 .join {
     font-size: 1rem;
     color: #475467;
 }
-@media (max-width: 768px){
-   
+
+@media (max-width: 768px) {
+
     .social-img {
-       border-radius: 25px;
+        border-radius: 25px;
     }
+
     .parent-social-container {
         width: 100%;
         margin: auto;
         display: flex;
         justify-content: center;
     }
-    .company-logo{
+
+    .company-logo {
         width: 5rem;
-       
+
     }
+
     .company-list {
         margin-top: 0;
     }
+
     .join {
         font-size: 1rem;
         color: #475467;
-        
+
     }
 }

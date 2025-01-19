@@ -16,13 +16,13 @@ function App() {
     <div className='custom-container'>
       <NavBar />
       <HeroSection />
-      <SocialSection/>
-      <FeatureSection/>
-      <Testimonial/>
-      <FAQSection/>
-      <BlogSection/>
-      <CTASection/>
-      <Footer/>
+      <SocialSection />
+      <FeatureSection />
+      <Testimonial />
+      <FAQSection />
+      <BlogSection />
+      <CTASection />
+      <Footer />
 
     </div>
   );

@@ -23,8 +23,6 @@
     margin: 20px auto;
   }
   
-  
-  
   .accordion-header {
     display: flex;
     justify-content: space-between;
@@ -32,7 +30,6 @@
     cursor: pointer;
     background: white;
   }
-  
   
   .accordion-content {
     padding: 15px;

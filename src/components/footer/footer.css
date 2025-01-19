@@ -1,8 +1,9 @@
-.list-color{
+.list-color {
     font-weight: 500;
 }
-@media(max-width:768px){
-    .foot{
+
+@media(max-width:768px) {
+    .foot {
         flex-direction: column;
         gap: 5px;
     }

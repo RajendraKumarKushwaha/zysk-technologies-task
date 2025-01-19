@@ -49,7 +49,7 @@ export function BlogSection() {
                         data.map((card, index) => (
                             <div key={index} className="col-md-4 mb-4">
                                 <div className="card border-0">
-                                    <img src={card.image} className="card-img-top" alt="Card image" />
+                                    <img src={card.image} className="card-img-top" alt="Card imag" />
                                     <div className="card-body">
 
                                         <p className="card-text fs-6  text-danger">{card.paragraph}</p>
@@ -65,7 +65,8 @@ export function BlogSection() {
                                                 <img src={card.avatar} alt="Card avatar" />
                                             </div>
                                             <div>
-                                                <p style={{ fontSize: "13px" }} className="fw-bold name">{card.name} <br /> <span className="fw-light paragraph">{card.date}</span></p>
+                                                <p style={{ fontSize: "13px" }} className="fw-bold name">{card.name} <br />
+                                                 <span className="fw-light paragraph">{card.date}</span></p>
                                             </div>
                                         </div>
                                     </div>

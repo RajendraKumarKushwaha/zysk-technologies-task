@@ -7,7 +7,8 @@ export function FeatureSection() {
         { icon: 'bi bi-emoji-smile', heading: 'Connect with customers', description: 'Solve a problem or close a sale in real-time with chat. If no one is available, customers are seamlessly routed to email without confusion.' },
         { icon: 'bi bi-terminal', heading: 'Connect the tools you already use', description: 'Explore 100+ integrations that make your day-to-day workflow more efficient and familiar. Plus, our extensive developer tools.' },
         { icon: 'bi-heart', heading: 'Our people make the difference', description: 'We’re an extension of your customer service team, and all of our resources are free. Chat to our friendly team 24/7 when you need help.' },
-      ];
+    ];
+
     return (
         <div className="d-flex flex-column justify-content-center align-items-center text-center">
             <div>
@@ -26,7 +27,6 @@ export function FeatureSection() {
                         </div>
                     ))}
                 </div>
-
             </div>
         </div>
     )

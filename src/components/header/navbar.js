@@ -13,8 +13,7 @@ export function NavBar() {
         <header className="top-header d-flex justify-content-between align-items-center p-3">
 
             <div>
-               <Link to="/"> <img src="/assests/images/Group 160.png" alt="logo" />
-               </Link>
+                <Link to="/"> <img src="/assests/images/Group 160.png" alt="logo" /></Link>
             </div>
             <button
                 className="menu-toggle d-md-none"
